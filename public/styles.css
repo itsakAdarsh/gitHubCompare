@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.head {
+    display: flex;
+    padding :14px 5%;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    padding:10px;
+}
+.sBar{
+    height: 60px;
+    width: 724px;
+    padding: 1px 18px;
+}
+.btn{
+    width: 244px;
+    height: 53px;
+    cursor: pointer;
+}
+.btn,.sBar{
+     font-size: 26px;
+     border-radius: 10px;
+     outline: none;
+}
+.res{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.cards{
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 5px 5px 5px #494949;
+    overflow: hidden;
+}
+.cardTop{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px 30px 60px;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(235, 235, 235);
+
+}
+.cardImg{
+    width:100px;
+    height: 100px;
+    background-color: rgba(197, 197, 197, 0.5);
+    border-radius: 50%;
+    overflow: hidden;
+}
+.close{
+    transform: translate(20px,-55px);
+    cursor: pointer;
+}
+.close:hover{
+    color: red;
+}
+.classBottom{
+    line-height: 2;
+    padding: 30px 60px 30px 60px;
+
+}
+a{
+    text-decoration:none;
+}
